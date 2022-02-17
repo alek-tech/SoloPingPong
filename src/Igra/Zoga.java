@@ -38,6 +38,7 @@ public class Zoga {
 		// ko zadane zoga lopar 
 		if (this.trkZLoparjem()) {
 			this.yPremik = -1;
+			igra.povecajTocke();
 		}
 		this.x += xPremik; 
 		this.y += yPremik;
